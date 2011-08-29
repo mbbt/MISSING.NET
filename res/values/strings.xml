@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MissingActivity!</string>
+    <string name="app_name">MISSING.NET</string>
+    <string name="no_records">No Records Yet</string>
+    <string name="splash_what">The global search engine for missing persons</string>
+    <string name="splash_who1">In partnership with:</string>
+    <string name="splash_who2">With the support of the french Ministry of Economy, Finances and Industry</string>
+    
+    <string name="menu_title">Main Menu - Please Choose</string>    
+    <string name="menu_add">Add a person</string>
+    <string name="menu_search">Search a person</string>
+    <string name="menu_map">Crisis map</string>
+    <string name="menu_sync">Synchronisation</string>
+    <string name="menu_info">Information</string>
+    
+    <!-- Add a person -->
+    
+    <string name="add_person">Add Person</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="age">Age:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="country">Country:</string>
+    <string name="description">Description:</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="status">Status:</string>
+    <string name="missing">Missing</string>
+    <string name="found">Found</string>
+    <string name="add_to_database">Add to database</string>
+    <string name="successfully_added">Successfully Added</string>
+    <string name="add_another">Add another</string>
+    <string name="back_to_menu">Back to menu</string>
+    
+    
+    <string name="search_for_a_person">Search for a person</string>
+    <string name="enter_first_letters">Enter last name:</string>
+    <string name="find_person">Find person</string>
+    <string name="gender">Gender:</string>
+    <string name="synchronisation">Synchronisation</string>
+    <string name="sync_help">Synchronize the information collected on your mobile with the web site of MISSING.NET.</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="start">Start</string>
+    
+    <string name="info_help">The Red Helmets Foundation, in partnership with Bearstech and European Consulting Services, created MISSING.NET, the global search engine for missing persons.
+\n
+\nOn MISSING.NET, the users can :\n
+\n- Create a missing person profile 
+\n- Search for a missing person 
+\n- Access to a missing people facebook.
+\n- Bring a testimony
+\n- Geolocalize the victims 
+\n- Incorporate feeds concerning the disappearance.
+\n- Declare of a found person 
+\n
+\nTo allow the humanitarian actors to collect useful information, in emergency, a mobile application was developed under Android. 
+\nThe application allows to add missing or found persons to the database while being offline and later on to synchronise with the website.
+\n
+\nThis project was realized with the cooperation of Google and the support of the French Ministry of Economy, Finances and Industry.</string>
+    
+</resources>

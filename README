@@ -1,0 +1,17 @@
+
+The Missing Mobile Client is the Android application for MISSING.NET.
+
+For each disaster the sources need to be changed (as per request of CR this is not user configurable):
+ * bump the database version DB_VERSION in MissingDbAdapter.java and
+ * adjust the DISASTER in SyncActivity.java
+
+
+The following libraries are used in the application:
+
+apache-mime4j-0.6.1.jar
+httpclient-4.1.1.jar
+httpcore-4.1.1.jar
+httpmime-4.1.1.jar
+osmdroid-android-3.0.1.jar
+slf4j-android-1.5.8.jar
+

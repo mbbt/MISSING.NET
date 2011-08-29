@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:padding="10dip">
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="25dip"
+		android:textColor="#fff" android:layout_marginBottom="25dip"
+		android:text="@string/search_for_a_person"></TextView>
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/enter_first_letters"
+		android:layout_marginBottom="5dip"></TextView>
+	<EditText android:id="@+id/EditText01" android:width="250dip"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="15dip"></EditText>
+	<Button android:id="@+id/Button01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="onClick"
+		android:text="@string/find_person"></Button>
+</LinearLayout>

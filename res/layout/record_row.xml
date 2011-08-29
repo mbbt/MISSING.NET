@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:id="@+id/text1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dip" android:text="--"
+    android:paddingTop="2dip" 
+    android:paddingBottom="3dip" 
+    android:layout_marginBottom="3dip" android:textColor="#fff"/>
+    
+<TextView android:id="@+id/text2" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dip"
+    android:paddingBottom="2dip" 
+    android:text="--" android:layout_marginLeft="10dip" android:textColor="#fff"/>
+
+<TextView android:id="@+id/text3" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10dip"
+    android:paddingBottom="2dip" 
+    android:text="--" android:layout_marginLeft="10dip"/>
+
+<TextView android:id="@+id/text4" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10dip"
+    android:paddingBottom="2dip" 
+    android:text="--" android:layout_marginLeft="10dip"/>
+    
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.casquesrouges.missing" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/cr_logo2"
+		android:label="@string/app_name" android:debuggable="false">
+		<uses-library android:name="com.google.android.maps" />
+		<activity android:name=".SplashActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="MenuActivity" android:label="@string/menu_title"></activity>
+		<activity android:name="MapScreen" android:label="Disaster Map"
+			android:theme="@android:style/Theme.NoTitleBar"></activity>
+		<activity android:name="AddPersonActivity" android:label="Add Person"
+			android:windowSoftInputMode="stateHidden"></activity>
+		<activity android:name="SearchPersonActivity" android:label="Search Person"></activity>
+		<activity android:name="GeoPicActivity" android:label="Take a Geo Picture"></activity>
+		<activity android:name="SyncActivity" android:label="Sync with Server"
+			android:windowSoftInputMode="stateHidden"></activity>
+		<activity android:name="ImageViewActivity" android:label="Image View"></activity>
+		<activity android:name="AddPersonDoneActivity"></activity>
+		<activity android:name="PrefsActivity"></activity>
+		<activity android:name="SearchFormActivity"></activity>
+		<activity android:name="OsmActivity" android:label="Crisis Map"></activity>
+		<activity android:name="PersonDetailActivity"></activity>
+		<activity android:name="InformationActivity"></activity>
+		<activity android:name="SyncStarterActivity"></activity>
+	</application>
+	<uses-sdk android:minSdkVersion="7" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+</manifest> 

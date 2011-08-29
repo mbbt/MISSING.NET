@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+android:id="@+id/ScrollView01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:fillViewport="true" 
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout 
+android:id="@+id/LinearLayout01" 
+android:layout_height="wrap_content" 
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:padding="10dip">
+
+	<TextView 
+	android:id="@+id/TextView01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:text="@string/add_person" 
+	android:textSize="25dip" android:layout_marginBottom="8dip"></TextView>
+	
+	
+	<RadioGroup 
+	android:id="@+id/RadioGroup01" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+		<RadioButton
+		android:id="@+id/RadioButton01" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/male" 
+		android:checked="true"></RadioButton>
+		
+		<RadioButton 
+		android:id="@+id/RadioButton02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/female"></RadioButton>
+	
+	</RadioGroup>
+	
+	<TextView 
+	android:id="@+id/TextView02" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/first_name" android:layout_marginTop="7dip"></TextView>
+	
+	<EditText 
+	android:id="@+id/EditText01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent"></EditText>
+	
+	<TextView 
+	android:id="@+id/TextView03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/last_name" android:layout_marginTop="7dip"></TextView>
+	
+	<EditText 
+	android:layout_height="wrap_content" 
+	android:id="@+id/EditText02" 
+	android:layout_width="fill_parent"></EditText>
+	
+	<TextView 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:id="@+id/TextView04" 
+	android:layout_marginTop="7dip" android:text="@string/age"></TextView>
+	 
+	<LinearLayout android:id="@+id/LinearLayout02" 
+	android:layout_width="fill_parent" 
+	android:orientation="horizontal" 
+	android:layout_height="wrap_content">
+	 
+		<TextView android:id="@+id/TextView05" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="DD" android:visibility="gone"></TextView>
+		
+		<EditText 
+		android:id="@+id/EditText03" 
+		android:layout_width="wrap_content" 
+		android:ems="3"
+		android:maxLength="2"
+		android:inputType="number"
+		android:layout_height="wrap_content"></EditText>
+		
+		<TextView 
+		android:id="@+id/TextView06" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:text=" MM" android:visibility="gone"></TextView>
+		
+		<EditText 
+		android:id="@+id/EditText04" 
+		android:layout_width="wrap_content" 
+		android:ems="3"
+		android:maxLength="2"
+		android:inputType="number"
+		android:layout_height="wrap_content" android:visibility="gone"></EditText>
+		
+		<TextView 
+		android:id="@+id/TextView07" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:text=" YYYY" android:visibility="gone"></TextView>
+		
+		<EditText 
+		android:id="@+id/EditText05" 
+		android:layout_width="wrap_content"
+		android:ems="4"
+		android:maxLength="4"
+		android:inputType="number"
+		android:layout_height="wrap_content" android:visibility="gone"></EditText>
+	
+	</LinearLayout>
+	
+	
+	
+	<TextView 
+	android:id="@+id/TextView08" 
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" 
+	android:text="@string/address" 
+	android:layout_marginTop="7dip">
+	</TextView>
+	
+	<EditText 
+	android:layout_width="fill_parent" 
+	android:id="@+id/EditText06"
+	android:layout_height="wrap_content" 
+	android:paddingTop="2dip" 
+	></EditText>
+	    
+	    
+	<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/TextView10" 
+	android:text="@string/city"></TextView>
+	
+	<EditText 
+	android:id="@+id/EditText08" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent"></EditText>
+		
+
+	
+	<TextView 
+	android:layout_marginTop="7dip" android:text="@string/country" 
+	android:id="@+id/TextView12" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:visibility="visible"></TextView>
+	
+	<AutoCompleteTextView 
+	android:text="" 
+	android:id="@+id/AutoCompleteTextView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" android:visibility="visible"></AutoCompleteTextView>
+	
+	<TextView android:id="@+id/TextView11" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="7dip" android:text="@string/description"></TextView>
+	
+	<EditText 
+	android:id="@+id/EditText09" 
+	android:layout_height="90dip" 
+	android:layout_width="fill_parent"></EditText>
+	
+		
+	<Button 
+	android:id="@+id/Button01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_margin="10dip" 
+	android:text="@string/take_picture" android:onClick="onClickHandler">
+	</Button>
+	
+	<ImageView 
+	android:id="@+id/image_view"
+	android:layout_margin="10dip" 
+	android:layout_width="fill_parent" 
+	android:layout_height="300px"
+	android:visibility="gone"/>
+	
+	<TextView 
+	android:id="@+id/TextView09" 
+	android:layout_height="wrap_content" 
+	android:text="@string/status"
+	android:layout_width="fill_parent" 
+	android:layout_marginTop="7dip"></TextView>
+	
+	<RadioGroup 
+	android:id="@+id/RadioGroup02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+		
+		
+		<RadioButton
+		android:id="@+id/RadioButton03" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/missing" 
+		android:checked="true"></RadioButton>
+		
+		<RadioButton 
+		android:id="@+id/RadioButton04" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/found"></RadioButton>
+		
+		
+	
+	</RadioGroup>
+	
+	
+	
+
+	
+	
+	
+	
+	<Button 
+	android:id="@+id/Button02" 
+	android:layout_height="wrap_content" 
+	android:text="@string/add_to_database" 
+	android:layout_width="fill_parent" 
+	android:layout_marginBottom="20dip" 
+	android:layout_marginTop="20dip" android:onClick="onClickHandler"></Button>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView><!--  -->

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#fff" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:screenOrientation="portrait" android:onClick="onClick"
+		android:orientation="vertical" android:background="#fff">
+
+
+		<ImageView android:id="@+id/ImageView01" android:src="@drawable/miss_logo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		</ImageView>
+		<TextView android:id="@+id/TextView01" android:textColor="#000"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/splash_what"
+			android:layout_gravity="center" android:gravity="center"
+			android:textStyle="bold" android:layout_margin="10dip"
+			android:textSize="20dp"></TextView>
+
+		<ImageView android:id="@+id/ImageView03"
+			android:layout_width="fill_parent" android:src="@drawable/cr_logo2"
+			android:gravity="center" android:layout_height="wrap_content"
+			android:layout_marginTop="5dip" android:layout_marginBottom="10dip"></ImageView>
+
+
+		<TextView android:textColor="#000" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/splash_who1"
+			android:layout_gravity="center" android:gravity="center"
+			android:textStyle="normal" android:textSize="15dp"
+			android:layout_marginTop="10dip"></TextView>
+
+		<ImageView android:id="@+id/ImageView02" android:src="@drawable/bt_logo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		</ImageView>
+
+		<ImageView android:id="@+id/crlogo" android:src="@drawable/ecs_logo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="5dp" android:maxWidth="1.0px"
+			android:maxHeight="1.0px" android:scaleType="center" />
+
+
+
+
+		<TextView android:id="@+id/TextView02" android:textColor="#000"
+			android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+			android:text="@string/splash_who2"
+			android:layout_width="wrap_content" android:gravity="center"
+			android:textSize="15dp" android:layout_margin="15dip"></TextView>
+
+
+		<RelativeLayout android:id="@+id/LinearLayout01"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<Button android:id="@+id/Button01" android:layout_height="wrap_content"
+				android:text="Start" android:height="2px" android:onClick="onClick"
+				android:layout_width="wrap_content" android:gravity="center"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:layout_centerInParent="true" android:width="150dip"
+				android:layout_margin="25dip"></Button>
+		</RelativeLayout>
+
+
+
+
+	</LinearLayout>
+
+
+
+</ScrollView>

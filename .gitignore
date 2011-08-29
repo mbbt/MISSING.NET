@@ -1,0 +1,8 @@
+bin/
+gen/
+doc/
+apache-mime4j-0.6.1.jar
+httpclient-4.1.1.jar
+httpcore-4.1.1.jar
+httpmime-4.1.1.jar
+

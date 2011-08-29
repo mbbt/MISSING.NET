@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MissingActivity!</string>
+    <string name="app_name">MISSING.NET</string>
+    <string name="no_records">No Records Yet</string>
+    <string name="splash_what">Le moteur de recherche des personnes disparues de catastrophes naturelles</string>
+    <string name="splash_who1">en partenariat avec</string>
+    <string name="splash_who2">Avec le soutien du Ministère de l\'Économie, des Finances et de l\'Industrie</string>
+    
+    <string name="menu_title">Menu</string>    
+    <string name="menu_add">Déclarer une personne disparue</string>
+    <string name="menu_search">Rechercher une personne disparue</string>
+    <string name="menu_map">Crisis map</string>
+    <string name="menu_sync">Synchronisation</string>
+    <string name="menu_info">Informations</string>
+    
+    <!-- Add a person -->
+    
+    <string name="add_person">Déclarer une personne</string>
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+    <string name="first_name">Prénom:</string>
+    <string name="last_name">Nom:</string>
+    <string name="age">Age:</string>
+    <string name="address">Adresse:</string>
+    <string name="city">Ville:</string>
+    <string name="country">Pays:</string>
+    <string name="description">Signes particuliers:</string>
+    <string name="take_picture">Prendre un photo</string>
+    <string name="status">Statut:</string>
+    <string name="missing">Missing</string>
+    <string name="found">Found</string>
+    <string name="add_to_database">Valider</string>
+    <string name="successfully_added">Success</string>
+    <string name="add_another">Déclarer une autre personne</string>
+    <string name="back_to_menu">Retour au menu principal</string>
+    
+    
+    <string name="search_for_a_person">Rechercher une personne</string>
+    <string name="enter_first_letters">Entrer un nom:</string>
+    <string name="find_person">Valider</string>
+    <string name="gender">Sexe:</string>
+    <string name="synchronisation">Synchronisation</string>
+    <string name="sync_help">Synchronisez les informations recueillies sur votre mobile avec le site Internet de MISSING.NET</string>
+    <string name="username">Nom d\'utilisateur:</string>
+    <string name="password">Mot de passe:</string>
+    <string name="start">Valider</string>
+    
+    <string name="info_help">La Fondation Casques Rouges, en partenariat avec Bearstech et European Consulting Services, a créé MISSING.NET, le moteur de recherche des personnes disparues de catastrophes naturelles. 
+\n
+\nSur MISSING.NET, les utilisateurs peuvent :\n
+\n- Créer la fiche d\'une personne disparue 
+\n- Rechercher une personne disparue 
+\n- Accéder à un trombinoscope de personnes disparues.
+\n- Apporter un témoignage
+\n- Géolocaliser des victimes
+\n- Agréger des flux relatifs à la disparition.
+\n- Déclarer une personne retrouvée
+
+
+
+\n\nPour permettre aux acteurs humanitaires de collecter le plus grand nombre d\'informations utiles, dans l\'urgence, une application mobile a été développée sous Android.
+</string>
+    
+    
+    
+</resources>

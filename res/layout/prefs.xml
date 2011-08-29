@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dip" android:text="Preferences" android:textSize="25dip"></TextView>
+  
+  <TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disaster:"></TextView><RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/RadioGroup02"><RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Haiti" android:id="@+id/RadioButton03"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chile" android:id="@+id/RadioButton04"></RadioButton>
+</RadioGroup>
+  
+<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:text="Language:"></TextView>
+
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<RadioButton android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="English"></RadioButton>
+<RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="French"></RadioButton>
+</RadioGroup>
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username:"></TextView>
+<EditText android:id="@+id/EditText01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="250dip"></EditText>
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password:"></TextView>
+<EditText android:width="250dip" android:layout_width="wrap_content" 
+android:id="@+id/EditText02" android:layout_height="wrap_content"></EditText>
+
+
+
+
+
+
+</LinearLayout>
